@@ -1,0 +1,85 @@
+# assign a variable a number
+a = 33   
+# assign a string to a variable
+b = "Jesse"
+# assign a float to a variable
+c = 2.3
+#use the print function and the .format() to print out variables
+print (a, b, c)
+print'{1} {0} {2}'.format('Jesse', '33', '2.3')
+#use of operators +, ­ , * , / , +=, ­= , %
+x = 10
+y = 12
+
+print x + y
+print x - y
+print x * y
+print x / y
+x += 15
+print x
+y -= 15
+print y
+print x % y
+
+#Use of logical operators and, or , not
+
+x = True
+y = False
+print x and y
+print x or y
+print not x
+#Use of conditional statements: if, elif, else
+#Define variables
+x = 6
+# Start if statement
+if x > 10:
+    print 'wow'
+#If x is not greater than 10 run this
+elif x < 5:
+    print 'small'
+#If is not greater than 10 or less than 5 run this
+else:
+    print 'perfect'
+#Use of a while loops
+#Start counter at 0
+counter = 0
+#While counter is less than 10, run the loop
+while counter < 10:
+#show counter value
+    print counter
+    counter = counter + 1
+#Use of a for loop
+#run loop in range 0-5
+for counter in range(0,5):
+#show value of counter
+        print counter
+"""Creating a list and iterate through that list using a for loop to
+print each item out on a new line"""
+#Create list of numbers
+number_list = [2,4,6,8,10]
+#Loop ach number in number_list
+for x in number_list:
+#Print each to the power of 10
+    print x**10
+"""Create a tuple and iterate through it using a for loop
+to print each item out on a new line"""
+x = {'a':5, 'b':10, 'c':15}
+y = x.items()
+for key, val in x.items():
+    print val, key
+# Defining a function that returns a string variable
+def printme( str ):
+   "This prints a passed string into this function"
+   print str
+   return
+#Call the function you defined above and print the result to the shell
+printme( " I am finished with this drill!")
+
+
+
+
+
+
+
+
+    
